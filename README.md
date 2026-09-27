@@ -17,6 +17,7 @@ Generation/
 Fidelite/        # évaluation de la fidélité statistique (KS, TVD, corrélations) pour les 5 méthodes
 Utilite/         # évaluation de l'utilité prédictive (TRTR/TSTR, Random Forest + XGBoost, régression quantile)
 Confidentialite/ # évaluation de la confidentialité (DCR, NNDR, attaque MIA, duplication exacte)
+Sensibilité/ # étude de sensibilité à la taille de l'échantillon synthétique (n=100 vs n=500, LightGBM)
 
 chroma_db/       # base vectorielle ChromaDB utilisée par le pipeline LLM+RAG (retrieval)
 phase0_data_prep.py  # préparation initiale des données réelles (nettoyage, imputation)
